@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.loader {
+    height: 300px;
+    width: 300px;
+}
+
+.loader__text {
+    position: absolute;
+    font-family: Candara, sans-serif;
+    color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+}
+
+.loader__ring {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 5px 2px white;
+    animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
