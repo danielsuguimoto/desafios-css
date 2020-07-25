@@ -1,0 +1,77 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+ul li {
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    transform: rotate(-30deg) skew(25deg);
+}
+
+ul li.facebook span {
+    background: #3b5999;
+}
+
+ul li.twitter span {
+    background: #55acee;
+}
+
+ul li.google span {
+    background: #dd4b39;
+}
+
+ul li.linkedin span {
+    background: #0077b5;
+}
+
+ul li.instagram span {
+    background: #e4405f;
+}
+
+ul li span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+ul li span.fab {
+    display: grid;
+    place-items: center;
+}
+
+ul li:hover span:nth-child(5) {
+    transform: translate(80px, -80px);
+}
+
+ul li:hover span:nth-child(4) {
+    transform: translate(60px, -60px);
+    opacity: 0.8;
+}
+
+ul li:hover span:nth-child(3) {
+    transform: translate(40px, -40px);
+    opacity: 0.6;
+}
+
+ul li:hover span:nth-child(2) {
+    transform: translate(20px, -20px);
+    opacity: 0.4;
+}
+
+ul li:hover span:nth-child(1) {
+    opacity: .2;
+}
