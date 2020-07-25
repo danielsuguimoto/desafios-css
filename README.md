@@ -7,3 +7,6 @@
 
 ## Desafio 02 - Loader animado
 ![](gifs/desafio-02.gif)
+
+## Desafio 03 - Mudança de cor de texto quando entra em outra div
+![](gifs/desafio-03.gif)

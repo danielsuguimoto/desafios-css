@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: #2c084b;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 20px 20px 5px #5e5c00;
+}
+
+.half {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background: #024458;
+    color: #000000;
+    overflow-y: hidden;
+    text-shadow: 20px 20px 5px #4d4a4a;
+    border-right: 5px solid #000000;
+}
+
+.letters {
+    position: absolute;
+    top: 50%;
+    white-space: nowrap;
+    font-size: 200px;
+    font-family: Candara, sans-serif;
+    animation: moveLetters 15s linear infinite;
+}
+
+@keyframes moveLetters {
+    0% {
+        transform: translate(0, -50%);
+    }
+
+    100% {
+        transform: translate(-50%, -50%);
+    }
+}
