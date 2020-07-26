@@ -10,3 +10,6 @@
 
 ## Desafio 03 - Mudança de cor de texto quando entra em outra div
 ![](gifs/desafio-03.gif)
+
+## Desafio 04 - Botão com efeito
+![](gifs/desafio-04.gif)
