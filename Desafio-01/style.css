@@ -55,22 +55,26 @@ ul li span.fab {
 }
 
 ul li:hover span:nth-child(5) {
-    transform: translate(80px, -80px);
+    transform: translate(80px, -80px) rotate(360deg);
+    box-shadow: -5px 5px 10px #3d3c3c;
 }
 
 ul li:hover span:nth-child(4) {
     transform: translate(60px, -60px);
     opacity: 0.8;
+    box-shadow: -5px 5px 10px #3d3c3c;
 }
 
 ul li:hover span:nth-child(3) {
     transform: translate(40px, -40px);
     opacity: 0.6;
+    box-shadow: -5px 5px 10px #3d3c3c;
 }
 
 ul li:hover span:nth-child(2) {
     transform: translate(20px, -20px);
     opacity: 0.4;
+    box-shadow: -5px 5px 10px #3d3c3c;
 }
 
 ul li:hover span:nth-child(1) {
