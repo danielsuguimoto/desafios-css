@@ -20,6 +20,7 @@ body {
     display: grid;
     place-items: center;
     font-size: 30px;
+    animation: textColor 1s linear infinite;
 }
 
 .loader__ring {
@@ -45,5 +46,19 @@ body {
     100% {
         transform: rotate(360deg);
         box-shadow: 0 5px 2px white;
+    }
+}
+
+@keyframes textColor {
+    0% {
+        color: white;
+    }
+
+    50% {
+        color: #ec09bb;
+    }
+
+    100% {
+        color: white;
     }
 }
