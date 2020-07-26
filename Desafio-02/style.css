@@ -34,9 +34,16 @@ body {
 @keyframes loading {
     0% {
         transform: rotate(0deg);
+        box-shadow: 0 5px 2px white;
+    }
+
+    50% {
+        transform: rotate(180deg);
+        box-shadow: 0 5px 2px #ec09bb;
     }
 
     100% {
         transform: rotate(360deg);
+        box-shadow: 0 5px 2px white;
     }
 }
