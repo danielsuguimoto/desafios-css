@@ -13,3 +13,6 @@
 
 ## Desafio 04 - Botão com efeito
 ![](gifs/desafio-04.gif)
+
+## Desafio 05 - Efeito pulsar
+![](gifs/desafio-05.gif)

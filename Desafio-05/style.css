@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    background: #121212;
+}
+
+.pulse {
+    color: #e6e6e6;
+    font-size: 28px;
+    width: 120px;
+    height: 120px;
+    background: rgb(33, 126, 8);
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    animation: pulse 2s linear infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(33, 126, 8, 0.7), 0 0 0 0 rgba(33, 126, 8, 0.7);
+        text-shadow: 0 0 30px white;
+        background: rgb(33, 126, 8)
+    }
+
+    40% {
+        box-shadow: 0 0 0 60px rgba(138, 135, 4, 0), 0 0 0 0 rgba(138, 135, 4, 0.7);
+        text-shadow: 0 0 0 white;
+        background: rgb(33, 126, 8)
+    }
+
+    80% {
+        box-shadow: 0 0 0 60px rgba(138, 135, 4, 0), 0 0 0 30px rgba(138, 135, 4, 0);
+        text-shadow: 0 0 15px white;
+        background: rgb(138, 135, 4)
+    }
+
+    100%{
+        box-shadow: 0 0 0 0 rgba(138, 135, 4, 0), 0 0 0 30px rgba(138, 135, 4, 0);
+        text-shadow: 0 0 0 white;
+        background: rgb(138, 135, 4)
+    }
+}
