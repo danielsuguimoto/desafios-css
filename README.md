@@ -16,3 +16,6 @@
 
 ## Desafio 05 - Efeito pulsar
 ![](gifs/desafio-05.gif)
+
+## Desafio 06 - Efeito lightning text
+![](gifs/desafio-06.gif)
