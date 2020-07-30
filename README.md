@@ -22,3 +22,6 @@
 
 ## Desafio 07 - Preloader animado
 ![](gifs/desafio-07.gif)
+
+## Desafio 08 - Coração batendo
+![](gifs/desafio-08.gif)
