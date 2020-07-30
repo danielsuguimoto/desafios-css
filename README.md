@@ -19,3 +19,6 @@
 
 ## Desafio 06 - Efeito lightning text
 ![](gifs/desafio-06.gif)
+
+## Desafio 07 - Preloader animado
+![](gifs/desafio-07.gif)
