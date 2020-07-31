@@ -25,3 +25,6 @@
 
 ## Desafio 08 - Coração batendo
 ![](gifs/desafio-08.gif)
+
+## Desafio 09 - Pêndulo de Newton
+![](gifs/desafio-09.gif)
