@@ -28,3 +28,6 @@
 
 ## Desafio 09 - Pêndulo de Newton
 ![](gifs/desafio-09.gif)
+
+## Desafio 10 - Animação texto alternando
+![](gifs/desafio-10.gif)

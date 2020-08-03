@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #a5ecbc;
+}
+
+.title {
+    font-size: 10vh;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.title__emoji:after {
+    content: '';
+    animation: emoji 3s linear infinite;
+}
+
+@keyframes emoji {
+    0% {
+        content: '💻'
+    }
+
+    50% {
+        content: '🍣';
+    }
+
+    100% {
+        content: '🏖';
+    }
+}
