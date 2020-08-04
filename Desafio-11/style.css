@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #d3d3d3;
+}
+
+.button {
+    background: transparent;
+    padding: 12px;
+    font-size: 28px;
+    border: 3px solid #0d11fa;
+    color: #0d11fa;
+    transition: color 1s;
+    position: relative;
+    overflow: hidden;
+}
+
+.button::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -25%;
+    width: 0;
+    height: 200%;
+    z-index: -1;
+    background: #0d11fa;
+    transition: all 1s;
+    border-radius: 50%;
+}
+
+.button:hover {
+    color: #d3d3d3;
+}
+
+.button:hover::after {
+    width: 150%;
+}

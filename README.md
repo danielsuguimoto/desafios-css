@@ -31,3 +31,6 @@
 
 ## Desafio 10 - Animação texto alternando
 ![](gifs/desafio-10.gif)
+
+## Desafio 11 - Botão com efeito hover
+![](gifs/desafio-11.gif)
