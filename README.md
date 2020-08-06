@@ -34,3 +34,6 @@
 
 ## Desafio 11 - Botão com efeito hover
 ![](gifs/desafio-11.gif)
+
+## Desafio 12 - Efeito de texto de preenchimento ao passar o mouse
+![](gifs/desafio-12.gif)
